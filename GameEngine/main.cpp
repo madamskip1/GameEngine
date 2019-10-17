@@ -32,11 +32,9 @@ int main()
 	//hitsugaya->addAnimation(fullPower, "fullpower");
 	//hitsugaya->changeAnimation("fullpower");
 
-
 	sf::RenderWindow window(sf::VideoMode(500, 500), "SFML works!");
 	sf::CircleShape shape(100);
 	shape.setFillColor(sf::Color::Green);
-
 
 	sf::Clock clock;
 	clock.restart();
