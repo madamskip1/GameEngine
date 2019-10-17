@@ -1,5 +1,6 @@
 #pragma once
 #include <SFML/Graphics.hpp>
+
 namespace Engine
 {
 	const unsigned int FRAMERATE = 60; // Max framerate
