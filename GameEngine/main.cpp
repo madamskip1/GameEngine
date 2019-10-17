@@ -19,7 +19,7 @@ int main()
 	//Engine::AnimationFrame frame2(sf::Vector2i(237, 297), 154, 49);
 	//strike->addFrame(frame2);
 	//hitsugaya->addAnimation(strike, "strike");
-
+	
 	//hitsugaya->changeAnimation("strike");
 
 	//Engine::SpritesSheetAniamtionA *fullPower = new Engine::SpritesSheetAniamtionA(sf::seconds(0.15));
@@ -33,8 +33,6 @@ int main()
 	//hitsugaya->changeAnimation("fullpower");
 
 	sf::RenderWindow window(sf::VideoMode(500, 500), "SFML works!");
-	sf::CircleShape shape(100);
-	shape.setFillColor(sf::Color::Green);
 
 	sf::Clock clock;
 	clock.restart();
@@ -54,7 +52,6 @@ int main()
 		window.clear();
 		hitsugaya.tick(delta);
 		hitsugaya.draw(window);
-		//window.draw(shape);
 		window.display();
 	}
 
